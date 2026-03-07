@@ -1,0 +1,17 @@
+# Skill package
+*.skill
+
+
+# Eval and workspace (dev-only, not part of the published skill)
+evals/
+*-workspace/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+.idea/
+*.swp
+*.swo

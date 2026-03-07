@@ -1,0 +1,11 @@
+{
+  "version": "1.0.0",
+  "author": "hdprajwal",
+  "date": "March 2026",
+  "abstract": "An AI agent skill that audits shadcn components from third-party registries before installation. Uses the shadcn CLI's view and dry-run commands to fetch source without installing, then runs static analysis (eval usage, env exfiltration, script injection, typosquatting, logic bombs) and semantic intent analysis to detect malicious or suspicious code. Produces a structured SAFE / WARNING / BLOCK verdict with per-finding severity, rule name, file, and line number.",
+  "references": [
+    "https://ui.shadcn.com/docs/cli",
+    "https://skills.sh",
+    "https://github.com/hdprajwal/agent-skills"
+  ]
+}
