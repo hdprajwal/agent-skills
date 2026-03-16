@@ -1,0 +1,12 @@
+{
+  "version": "1.0.0",
+  "author": "hdprajwal",
+  "date": "March 2026",
+  "abstract": "An AI agent skill that removes signs of AI-generated writing from text. Based on Wikipedia's 'Signs of AI writing' guide maintained by WikiProject AI Cleanup. Detects and rewrites 31 patterns including significance inflation, promotional language, superficial -ing analyses, vague attributions, AI vocabulary, em dash overuse, rule of three, negative parallelisms, and Claude-specific tells. Includes a final anti-AI audit pass with a second rewrite to catch lingering AI-isms.",
+  "references": [
+    "https://en.wikipedia.org/wiki/Wikipedia:Signs_of_AI_writing",
+    "https://en.wikipedia.org/wiki/Wikipedia:WikiProject_AI_Cleanup",
+    "https://skills.sh",
+    "https://github.com/hdprajwal/agent-skills"
+  ]
+}
