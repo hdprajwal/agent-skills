@@ -7,13 +7,21 @@ A collection of AI agent skills installable via [skills.sh](https://skills.sh).
 | Skill | Description |
 |-------|-------------|
 | [shadcn-audit](./skills/shadcn-audit) | Audits shadcn components from third-party registries for malicious code before installation |
+| [humanize](./skills/humanize) | Removes signs of AI-generated writing from text to make it sound more natural and human |
 
 ## Install
 
 Install a specific skill:
 
 ```bash
+npx skills add https://github.com/hdprajwal/agent-skills --skill <skill-name> -g
+```
+
+For example:
+
+```bash
 npx skills add https://github.com/hdprajwal/agent-skills --skill shadcn-audit -g
+npx skills add https://github.com/hdprajwal/agent-skills --skill humanize -g
 ```
 
 ## What are agent skills?
