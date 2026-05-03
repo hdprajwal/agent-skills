@@ -8,6 +8,7 @@ A collection of AI agent skills installable via [skills.sh](https://skills.sh).
 |-------|-------------|
 | [shadcn-audit](./skills/shadcn-audit) | Audits shadcn components from third-party registries for malicious code before installation |
 | [humanize](./skills/humanize) | Removes signs of AI-generated writing from text to make it sound more natural and human |
+| [writing-flow](./skills/writing-flow) | 3-step writing flow with three slash commands (`/fragments`, `/walk`, `/polish`) — grills the user three different ways with a forced context clear between each step |
 
 ## Install
 
@@ -22,6 +23,7 @@ For example:
 ```bash
 npx skills add https://github.com/hdprajwal/agent-skills --skill shadcn-audit -g
 npx skills add https://github.com/hdprajwal/agent-skills --skill humanize -g
+npx skills add https://github.com/hdprajwal/agent-skills --skill writing-flow -g
 ```
 
 ## What are agent skills?

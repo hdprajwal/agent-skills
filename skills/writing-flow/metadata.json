@@ -1,0 +1,11 @@
+{
+  "version": "1.0.0",
+  "author": "hdprajwal",
+  "date": "May 2026",
+  "abstract": "A 3-step writing flow inspired by Matt Pocock, packaged as one skill with three slash commands. Works for any voice-driven writing — essays, blog posts, newsletters, opinion pieces, talks, long-form documentation, marketing copy, fiction. /fragments grills the user until they produce voice-true fragments in their own words (AI never writes the fragment). /walk reads fragments.md and walks a path through it beat-by-beat, marking every invented sentence with [+] and grilling the user before locking each beat. /polish reads draft.md and runs four ordered passes — contradictions, repetition, structure, and links — subtractive and structural only, never inventing sources or links. Each command refuses to start in a stale context window because writing quality with current models degrades past ~50K tokens.",
+  "references": [
+    "https://x.com/mattpocockuk",
+    "https://skills.sh",
+    "https://github.com/hdprajwal/agent-skills"
+  ]
+}
