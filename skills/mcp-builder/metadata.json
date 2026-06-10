@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "author": "hdprajwal",
+  "date": "June 2026",
+  "abstract": "Build/scaffold/review MCP (Model Context Protocol) servers in TypeScript (MCP SDK) or Python (FastMCP): research the spec, choose transport (stdio/streamable HTTP), design discoverable tools with validated inputs, focused paginated outputs and recoverable errors, then evaluate with the MCP Inspector and task-based evals. Adapted from anthropics/skills' mcp-builder.",
+  "references": [
+    "https://modelcontextprotocol.io",
+    "https://github.com/anthropics/skills",
+    "https://github.com/modelcontextprotocol/typescript-sdk",
+    "https://skills.sh",
+    "https://github.com/hdprajwal/agent-skills"
+  ]
+}

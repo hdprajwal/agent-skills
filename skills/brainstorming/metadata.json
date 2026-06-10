@@ -1,0 +1,12 @@
+{
+  "version": "1.1.0",
+  "author": "hdprajwal",
+  "date": "June 2026",
+  "abstract": "Turns a rough idea into an approved design before any code is written. Reads project context, asks clarifying questions one at a time, proposes 2-3 approaches with trade-offs, presents the design section by section, writes a short spec to docs/specs/, self-reviews it, and gets user sign-off before handing off to writing-plans. Adapted from obra/superpowers' brainstorming skill. Tuned to hdprajwal's actual workflow (branch \u2192 PR \u2192 merge loop, specs in docs/, pnpm + cargo, runtime-proof verification, short plain prose) based on usage analysis.",
+  "references": [
+    "https://github.com/obra/superpowers",
+    "https://github.com/addyosmani/agent-skills",
+    "https://skills.sh",
+    "https://github.com/hdprajwal/agent-skills"
+  ]
+}

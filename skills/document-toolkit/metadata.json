@@ -1,0 +1,14 @@
+{
+  "version": "1.0.0",
+  "author": "hdprajwal",
+  "date": "June 2026",
+  "abstract": "Read/extract/fill/generate Office and PDF documents from Python: pdfplumber+pypdf (text/tables, merge/split, forms, OCR), python-docx (Word read/build), openpyxl/pandas (Excel). Library-over-shell, work-on-a-copy, verify-the-output. Adapted from the pdf/docx/xlsx skills in anthropics/skills.",
+  "references": [
+    "https://github.com/anthropics/skills",
+    "https://pypi.org/project/pdfplumber/",
+    "https://python-docx.readthedocs.io/",
+    "https://openpyxl.readthedocs.io/",
+    "https://skills.sh",
+    "https://github.com/hdprajwal/agent-skills"
+  ]
+}

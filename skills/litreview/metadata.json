@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "author": "hdprajwal",
+  "date": "June 2026",
+  "abstract": "Structured academic literature review: scope + inclusion criteria, reproducible multi-source search (Semantic Scholar/arXiv/OpenAlex + citation chasing) with a search log, two-pass screening, an extraction matrix, theme-based synthesis with gap analysis, and BibTeX citation. Enforces no-fabricated-citations and report-what-you-searched honesty.",
+  "references": [
+    "https://www.semanticscholar.org/product/api",
+    "https://info.arxiv.org/help/api/",
+    "https://openalex.org/",
+    "https://skills.sh",
+    "https://github.com/hdprajwal/agent-skills"
+  ]
+}

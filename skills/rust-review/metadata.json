@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "author": "hdprajwal",
+  "date": "June 2026",
+  "abstract": "Rust review: run fmt/clippy/test/audit, then read for unjustified unsafe, reachable panics in library code, error-handling and context, needless clones and over-owning signatures, non-idiomatic patterns, and async/tokio pitfalls (blocking in async, locks across .await). Severity-tagged findings with concrete fixes.",
+  "references": [
+    "https://doc.rust-lang.org/clippy/",
+    "https://rust-lang.github.io/api-guidelines/",
+    "https://github.com/rustsec/rustsec",
+    "https://skills.sh",
+    "https://github.com/hdprajwal/agent-skills"
+  ]
+}

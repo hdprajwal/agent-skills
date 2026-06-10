@@ -1,0 +1,12 @@
+{
+  "version": "1.0.0",
+  "author": "hdprajwal",
+  "date": "June 2026",
+  "abstract": "Send synthetic keyboard and mouse input on Wayland/Hyprland: wtype for keyboard (rootless, no daemon) and ydotool for the mouse (with the one-time uinput udev rule + input-group + ydotoold setup spelled out). Covers typing, key combos, absolute/relative mouse moves, clicks, double-click, drag, and the logical-vs-physical coordinate conversion. The hands for visual computer use. Verified on CachyOS + Hyprland.",
+  "references": [
+    "https://github.com/atx/wtype",
+    "https://github.com/ReimuNotMoe/ydotool",
+    "https://skills.sh",
+    "https://github.com/hdprajwal/agent-skills"
+  ]
+}

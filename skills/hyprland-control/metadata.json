@@ -1,0 +1,12 @@
+{
+  "version": "1.0.0",
+  "author": "hdprajwal",
+  "date": "June 2026",
+  "abstract": "Inspect and control the Hyprland Wayland desktop via hyprctl — query windows/workspaces/monitors/cursor as JSON, focus/move/resize/close windows by selector, switch and move windows between workspaces, launch apps onto a target workspace, batch dispatches, and tweak config live. Built and verified on CachyOS + Hyprland.",
+  "references": [
+    "https://wiki.hyprland.org/Configuring/Using-hyprctl/",
+    "https://wiki.hyprland.org/Configuring/Dispatchers/",
+    "https://skills.sh",
+    "https://github.com/hdprajwal/agent-skills"
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "version": "1.0.0",
+  "author": "hdprajwal",
+  "date": "June 2026",
+  "abstract": "Take screenshots on Wayland/Hyprland with grim + slurp — full screen, a chosen monitor, an interactive region, or the active/named window via hyprctl geometry — saved to a file or piped to wl-copy. Covers JPEG/PNG compression for feeding models and the physical-vs-logical pixel scaling gotcha. The eyes for visual computer use. Verified on CachyOS + Hyprland.",
+  "references": [
+    "https://sr.ht/~emersion/grim/",
+    "https://github.com/emersion/slurp",
+    "https://skills.sh",
+    "https://github.com/hdprajwal/agent-skills"
+  ]
+}

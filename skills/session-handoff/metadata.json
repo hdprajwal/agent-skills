@@ -1,0 +1,10 @@
+{
+  "version": "1.0.0",
+  "author": "hdprajwal",
+  "date": "June 2026",
+  "abstract": "Write or restore a session handoff note (docs/HANDOFF.md) when pausing or switching between parallel projects: goal, done/in-progress, branch + last commit, the concrete next step, pending decisions, key files, and gotchas \u2014 built from real git state and verified against the repo on restore.",
+  "references": [
+    "https://github.com/hdprajwal/agent-skills",
+    "https://skills.sh"
+  ]
+}

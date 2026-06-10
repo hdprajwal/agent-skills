@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "author": "hdprajwal",
+  "date": "June 2026",
+  "abstract": "The local equivalent of Claude computer use on Hyprland/Wayland: an observe → reason → act → verify loop combining screen-capture (grim), gui-input-automation (wtype/ydotool), and hyprland-control (hyprctl). Includes coordinate calibration for scaled monitors, a shell-first rule, one-action-then-look discipline, and confirm-before-risky-actions safety. Verified on CachyOS + Hyprland.",
+  "references": [
+    "https://wiki.hyprland.org/Configuring/Using-hyprctl/",
+    "https://github.com/atx/wtype",
+    "https://github.com/ReimuNotMoe/ydotool",
+    "https://skills.sh",
+    "https://github.com/hdprajwal/agent-skills"
+  ]
+}

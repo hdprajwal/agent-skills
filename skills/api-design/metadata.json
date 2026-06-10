@@ -1,0 +1,11 @@
+{
+  "version": "1.0.0",
+  "author": "hdprajwal",
+  "date": "June 2026",
+  "abstract": "Contract-first interface design for HTTP/REST endpoints, MCP tools, and library APIs: specify inputs/outputs/errors/side-effects first, name consistently, structure recoverable errors, paginate lists and make writes idempotent, keep minimal composable surface, and version breaking changes with a migration path. Inspired by api-designer and interface-design skills across the ecosystem.",
+  "references": [
+    "https://github.com/anthropics/skills",
+    "https://github.com/hdprajwal/agent-skills",
+    "https://skills.sh"
+  ]
+}
