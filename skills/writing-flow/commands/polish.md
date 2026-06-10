@@ -88,6 +88,14 @@ At the end, produce a short list of every change you made, grouped by pass. Not 
 - Stripped 4 em dashes. Replaced 1 inline-header list with prose.
 ```
 
+## Out of scope
+
+- Adding new content. The polish pass is subtractive and structural, never generative.
+- Inventing citations, links, or sources. If a claim needs a source the user can't produce, soften or cut.
+- Rewriting fragments or beats in your own voice. Voice is locked at this stage.
+- Combining beats, reordering beats, or restructuring the argument at scale. If structure needs real work, send the user back to `/walk`.
+- Editing `draft.md`. It stays untouched so the user can diff against `final.md`.
+
 ## Hand-off
 
 Tell the user:
@@ -97,6 +105,7 @@ Tell the user:
 ## Rules
 
 - Run the passes in order. Don't interleave.
+- **Re-read `draft.md` and (if it exists) `final.md` from disk before every write.** The user may be editing `final.md` between turns. Preserve their changes; never overwrite blindly.
 - Never add content the user didn't approve in passes 1–4. The polish pass is **subtractive and structural**, not generative.
 - Never invent citations, sources, or links. If a claim needs a source the user can't produce, cut or soften.
 - Never collapse two voice-loaded sentences into one "cleaner" one. Cleaner is not better when voice is the point.

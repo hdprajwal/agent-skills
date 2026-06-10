@@ -10,7 +10,7 @@ One skill. Three slash commands. You get grilled three different ways.
 
 | # | Command | What it does | Output |
 |---|---------|--------------|--------|
-| 1 | `/fragments` | Grills the user until they produce voice-true fragments **in their own words**. AI never writes the fragment. | `fragments.md` |
+| 1 | `/fragments` | Grills the user until they produce voice-true fragments **in their own words**. AI may propose sharpened phrasings; only the user's pick is committed verbatim. | `fragments.md` |
 | 2 | `/walk` | Walks a path through `fragments.md` beat-by-beat. Marks invented sentences with `[+]`. Grills the user before locking each beat. | `draft.md` |
 | 3 | `/polish` | Runs four ordered passes (contradictions, repetition, structure, links) and grills on every issue. Subtractive only — never adds content. | `final.md` |
 
@@ -63,14 +63,16 @@ help me write a piece using the 3-step flow
 ## Rules each command enforces
 
 **`/fragments`**
-- One question at a time. AI never writes the fragment — the user does.
-- No combining, no editing, no "improving" fragments.
+- One question at a time. AI may propose 2–3 sharpened phrasings; only the user's pick is committed verbatim.
+- No combining, no editing of committed fragments, no reordering.
 - No encouragement. Just grilling.
 - Stops at ~10–20 fragments.
 
 **`/walk`**
 - Refuses to start without `fragments.md` and a fresh context window.
-- One beat at a time. The next beat doesn't start until the current one is locked.
+- One beat at a time. Proposes 2–3 candidate *directions* per beat (Continue / Contrast / Zoom in / Zoom out / Aside / Pivot hard) with a recommendation, then writes only the picked direction.
+- Argues format choice (prose vs. list vs. table vs. callout) before writing.
+- Names the gap when fragments don't have what a beat needs.
 - Every invented sentence is marked `[+]`.
 - Banned AI vocabulary in connective tissue (delve, landscape, tapestry, etc.).
 - No generic closing beats.

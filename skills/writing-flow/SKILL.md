@@ -29,7 +29,7 @@ The fix is not a longer context window. The fix is splitting the work into three
 
 | # | Command | What it does | Output |
 |---|---------|--------------|--------|
-| 1 | `/fragments` | Grills the user until they produce voice-true fragments **in their own words**. AI never writes the fragment. | `fragments.md` |
+| 1 | `/fragments` | Grills the user until they produce voice-true fragments **in their own words**. AI may propose sharpened phrasings; only the user's pick is committed verbatim. | `fragments.md` |
 | 2 | `/walk` | Walks a path through `fragments.md` beat-by-beat. Marks invented sentences with `[+]`. Grills the user before locking each beat. | `draft.md` |
 | 3 | `/polish` | Runs four ordered passes (contradictions, repetition, structure, links) and grills on every issue. Subtractive only — never adds content. | `final.md` |
 
@@ -65,6 +65,6 @@ If the user is somewhere in the middle and unsure, ask: "Do you have raw fragmen
 ## What this skill will not do
 
 - Will not run all three steps in one session. The context-clear is load-bearing.
-- Will not write fragments on the user's behalf. The user's voice is the spec.
+- Will not commit fragments in the AI's own words. The AI may propose sharpened phrasings, but only what the user picks (or rewrites) is saved.
 - Will not invent citations, links, or sources during polish.
 - Will not promise this is faster than writing without AI. It probably isn't. The promise is higher quality and less frustration.
