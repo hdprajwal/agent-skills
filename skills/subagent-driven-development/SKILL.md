@@ -1,11 +1,6 @@
 ---
 name: subagent-driven-development
-description: >-
-  Execute a plan with a fresh subagent per task and a two-stage review after each
-  — spec compliance first, then code quality — running continuously until done,
-  then finishing on a branch → PR → merge. Use when you have a plan from
-  writing-plans whose tasks are mostly independent and you want to stay in the
-  current session.
+description: Execute a plan with a fresh subagent per task and a two-stage review after each — spec compliance first, then code quality — running continuously until done, then finishing on a branch → PR → merge. Use when you have a plan from writing-plans whose tasks are mostly independent and you want to stay in the current session.
 allowed-tools: Read Write Edit Bash Agent Task
 ---
 

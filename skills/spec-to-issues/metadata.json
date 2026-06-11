@@ -1,0 +1,11 @@
+{
+  "version": "0.1.0",
+  "author": "hdprajwal",
+  "date": "June 2026",
+  "abstract": "Turns a spec/PRD/design into independently-workable tracker issues, completing the front half of a spec -> issues -> PR -> merge lifecycle. Decomposition is platform-agnostic (tracer-bullet vertical slices that cut end-to-end through every layer, each tagged AFK/HITL with blocked-by dependencies and checkable acceptance criteria, gated on user approval); publishing goes through a swappable adapter. v0 ships only the GitHub adapter (gh): it ensures labels (epic/ready/blocked/afk/hitl), creates an epic tracking issue plus child issues in dependency order, encodes 'Blocked by #N' as body text, and links children into the epic checklist. The 'Blocked by #N' text is the deliberate contract with issue-to-pr's selector, so the back-half skill can pick independent 'ready' issues. Adapter contract (preflight/ensure_labels/create_epic/create_issue/link_children) is documented so GitLab/Linear/Jira adapters can be added without changing decomposition. Decomposition method adapted from the to-issues skill; pairs with issue-to-pr.",
+  "references": [
+    "https://github.com/hdprajwal/agent-skills",
+    "https://cli.github.com/manual/gh_issue",
+    "https://cli.github.com/manual/gh_label"
+  ]
+}

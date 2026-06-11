@@ -1,11 +1,6 @@
 ---
 name: visual-computer-use-loop
-description: >-
-  Operate the Hyprland desktop the way a human would — look at the screen, decide
-  the next action, do it, then look again to confirm. Combines screen-capture
-  (see), hyprland-control (windows/workspaces), and gui-input-automation
-  (click/type) into one observe → reason → act → verify loop with coordinate
-  calibration. Use for GUI tasks no CLI can do.
+description: Operate the Hyprland desktop the way a human would — look at the screen, decide the next action, do it, then look again to confirm. Combines screen-capture (see), hyprland-control (windows/workspaces), and gui-input-automation (click/type) into one observe → reason → act → verify loop with coordinate calibration. Use for GUI tasks no CLI can do.
 allowed-tools: Bash Read
 ---
 

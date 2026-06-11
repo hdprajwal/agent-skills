@@ -1,11 +1,6 @@
 ---
 name: writing-plans
-description: >-
-  Turn an approved spec into a bite-sized implementation plan an engineer with
-  zero context could execute — exact files, exact code, exact commands,
-  Red-Green TDD steps, frequent commits. Use when you have a spec for a
-  multi-step task. Saves to docs/<feature>-plan.md and hands off to
-  executing-plans or subagent-driven-development.
+description: Turn an approved spec into a bite-sized implementation plan an engineer with zero context could execute — exact files, exact code, exact commands, Red-Green TDD steps, frequent commits. Use when you have a spec for a multi-step task. Saves to docs/<feature>-plan.md and hands off to executing-plans or subagent-driven-development.
 allowed-tools: Read Write Edit Bash
 ---
 

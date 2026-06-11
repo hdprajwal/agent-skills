@@ -1,11 +1,6 @@
 ---
 name: brainstorming
-description: >-
-  Turn an idea into an approved spec before any code. Use before any creative
-  work — new features, components, behavior changes. Reads context, asks one
-  question at a time, proposes 2-3 approaches, writes a short spec to
-  docs/<topic>-spec.md, and gets sign-off. Hands off to writing-plans. Never
-  writes code before the spec is approved.
+description: Turn an idea into an approved spec before any code. Use before any creative work — new features, components, behavior changes. Reads context, asks one question at a time, proposes 2-3 approaches, writes a short spec to docs/<topic>-spec.md, and gets sign-off. Hands off to writing-plans. Never writes code before the spec is approved.
 allowed-tools: Read Write Edit Bash AskUserQuestion
 ---
 

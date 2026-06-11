@@ -1,11 +1,6 @@
 ---
 name: hyprland-control
-description: >-
-  Inspect and control the Hyprland Wayland desktop from the shell via hyprctl —
-  list/query windows, focus/move/resize/close them, switch and move things
-  between workspaces, launch apps onto a target workspace, read monitor and
-  cursor state. Use on Hyprland (Wayland) for any window or workspace
-  management. Not for X11 (use wmctrl/xdotool there).
+description: Inspect and control the Hyprland Wayland desktop from the shell via hyprctl — list/query windows, focus/move/resize/close them, switch and move things between workspaces, launch apps onto a target workspace, read monitor and cursor state. Use on Hyprland (Wayland) for any window or workspace management. Not for X11 (use wmctrl/xdotool there).
 allowed-tools: Bash Read
 ---
 

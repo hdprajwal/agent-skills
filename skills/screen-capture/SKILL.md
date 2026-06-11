@@ -1,11 +1,6 @@
 ---
 name: screen-capture
-description: >-
-  Take screenshots on Wayland/Hyprland with grim + slurp — full screen, a chosen
-  monitor, an interactive region, or the active window — and save to a file or
-  pipe to the clipboard. Use whenever an agent needs to see the screen, capture
-  UI state, grab a region for analysis, or produce an image to reason over. The
-  "eyes" for visual computer use.
+description: Take screenshots on Wayland/Hyprland with grim + slurp — full screen, a chosen monitor, an interactive region, or the active window — and save to a file or pipe to the clipboard. Use whenever an agent needs to see the screen, capture UI state, grab a region for analysis, or produce an image to reason over. The "eyes" for visual computer use.
 allowed-tools: Bash Read
 ---
 

@@ -1,11 +1,6 @@
 ---
 name: rust-review
-description: >-
-  Review Rust code for correctness, safety, idioms, and performance — run
-  clippy/fmt, audit unsafe and unwrap, check ownership/borrowing and error
-  handling, spot async pitfalls, and confirm tests. Use when reviewing or
-  hardening Rust before merge, or when asked to make Rust more idiomatic. Runs
-  the toolchain first, then reads for what tools can't catch.
+description: Review Rust code for correctness, safety, idioms, and performance — run clippy/fmt, audit unsafe and unwrap, check ownership/borrowing and error handling, spot async pitfalls, and confirm tests. Use when reviewing or hardening Rust before merge, or when asked to make Rust more idiomatic. Runs the toolchain first, then reads for what tools can't catch.
 allowed-tools: Read Bash Edit
 ---
 

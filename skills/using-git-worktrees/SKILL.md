@@ -1,11 +1,6 @@
 ---
 name: using-git-worktrees
-description: >-
-  Make sure work happens in an isolated workspace before a feature or plan. A
-  feature branch is the default and is enough for most work; reach for a worktree
-  only when you need a second checkout at once (parallel agents, comparing
-  branches, long build running). Detects existing isolation, prefers the
-  harness's native worktree tool, falls back to git, verifies a clean baseline.
+description: Make sure work happens in an isolated workspace before a feature or plan. A feature branch is the default and is enough for most work; reach for a worktree only when you need a second checkout at once (parallel agents, comparing branches, long build running). Detects existing isolation, prefers the harness's native worktree tool, falls back to git, verifies a clean baseline.
 allowed-tools: Read Bash
 ---
 

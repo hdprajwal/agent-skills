@@ -1,11 +1,6 @@
 ---
 name: document-toolkit
-description: >-
-  Read, extract, fill, and generate Office/PDF documents from Python — PDF
-  (pypdf / pdfplumber), Word (.docx, python-docx), and Excel (.xlsx, openpyxl).
-  Use whenever a .pdf, .docx, or .xlsx is the input or the desired output:
-  extract text/tables, merge/split, fill forms, build a report, read or write a
-  spreadsheet. Prefers libraries over brittle shell parsing.
+description: "Read, extract, fill, and generate Office/PDF documents from Python — PDF (pypdf / pdfplumber), Word (.docx, python-docx), and Excel (.xlsx, openpyxl). Use whenever a .pdf, .docx, or .xlsx is the input or the desired output: extract text/tables, merge/split, fill forms, build a report, read or write a spreadsheet. Prefers libraries over brittle shell parsing."
 allowed-tools: Read Write Edit Bash
 ---
 

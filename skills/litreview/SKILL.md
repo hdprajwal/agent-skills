@@ -1,11 +1,6 @@
 ---
 name: litreview
-description: >-
-  Run a structured academic literature review — scope the question, search the
-  literature, screen for relevance, extract findings into a comparable matrix,
-  synthesize themes and gaps, and cite cleanly (BibTeX). Use for research papers,
-  related-work sections, grant background, or surveying a field before building.
-  Tracks what was searched so the review is reproducible, not cherry-picked.
+description: Run a structured academic literature review — scope the question, search the literature, screen for relevance, extract findings into a comparable matrix, synthesize themes and gaps, and cite cleanly (BibTeX). Use for research papers, related-work sections, grant background, or surveying a field before building. Tracks what was searched so the review is reproducible, not cherry-picked.
 allowed-tools: Read Write Edit Bash WebSearch WebFetch
 ---
 

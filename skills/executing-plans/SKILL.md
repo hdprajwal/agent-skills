@@ -1,11 +1,6 @@
 ---
 name: executing-plans
-description: >-
-  Run a written plan inline in the current session with review checkpoints: load
-  it, review it critically, run each task exactly with its verifications, prove
-  it actually runs, then finish on a branch → PR → merge. Use when you have a
-  plan from writing-plans and tasks are coupled enough to keep in one session.
-  Stops and asks when blocked.
+description: "Run a written plan inline in the current session with review checkpoints: load it, review it critically, run each task exactly with its verifications, prove it actually runs, then finish on a branch → PR → merge. Use when you have a plan from writing-plans and tasks are coupled enough to keep in one session. Stops and asks when blocked."
 allowed-tools: Read Write Edit Bash
 ---
 

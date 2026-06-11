@@ -1,11 +1,6 @@
 ---
 name: api-design
-description: >-
-  Design stable, well-shaped interfaces before implementing them — HTTP/REST
-  endpoints, MCP tools, or library/module APIs. Use when adding a public
-  endpoint, defining a contract between modules, designing MCP tools, or shaping
-  a library's surface. Focuses on naming, contracts, error shapes, versioning,
-  and backward compatibility — the parts that are expensive to change later.
+description: Design stable, well-shaped interfaces before implementing them — HTTP/REST endpoints, MCP tools, or library/module APIs. Use when adding a public endpoint, defining a contract between modules, designing MCP tools, or shaping a library's surface. Focuses on naming, contracts, error shapes, versioning, and backward compatibility — the parts that are expensive to change later.
 allowed-tools: Read Write Edit
 ---
 

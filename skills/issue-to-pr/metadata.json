@@ -1,0 +1,11 @@
+{
+  "version": "1.0.0",
+  "author": "hdprajwal",
+  "date": "June 2026",
+  "abstract": "Drives one open GitHub issue from queue to PR, one issue per run, and stops before merge. The only unique logic is selecting an issue that can be resolved independently of others (via a bundled selector subagent prompt) and ordering the steps; every other step delegates to an existing skill rather than duplicating it: using-git-worktrees for the branch, incremental-implementation for the fix (tests/build as a hard green gate), subagent-driven-development/dispatching-parallel-agents for fresh-subagent dispatch, and the code-review skill for the review loop. Review runs up to 3 rounds: code-review's correctness findings are treated as blocking, its reuse/simplification/efficiency findings as non-blocking and carried into the PR description; fixes apply via code-review --fix or a fresh subagent. Ends at an open PR linked with 'Closes #N' and hands the merge decision to the user. Built for hdprajwal's branch -> PR -> merge workflow with gh CLI and plain branches. Ships one bundled prompt (selector).",
+  "references": [
+    "https://github.com/hdprajwal/agent-skills",
+    "https://cli.github.com/manual/gh_issue",
+    "https://cli.github.com/manual/gh_pr"
+  ]
+}

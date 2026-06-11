@@ -1,11 +1,6 @@
 ---
 name: gui-input-automation
-description: >-
-  Send synthetic keyboard and mouse input on Wayland/Hyprland — type text, press
-  key combos, move the cursor, click, scroll, drag. Use wtype for keyboard
-  (no setup, rootless) and ydotool for the mouse (needs a one-time uinput/daemon
-  setup the skill walks through). The "hands" for visual computer use. Wayland
-  only — xdotool does not work here.
+description: Send synthetic keyboard and mouse input on Wayland/Hyprland — type text, press key combos, move the cursor, click, scroll, drag. Use wtype for keyboard (no setup, rootless) and ydotool for the mouse (needs a one-time uinput/daemon setup the skill walks through). The "hands" for visual computer use. Wayland only — xdotool does not work here.
 allowed-tools: Bash Read
 ---
 

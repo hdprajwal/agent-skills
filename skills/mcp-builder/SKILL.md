@@ -1,11 +1,6 @@
 ---
 name: mcp-builder
-description: >-
-  Build, scaffold, and review MCP (Model Context Protocol) servers that give LLMs
-  well-designed tools over an external API or service. Use when creating or
-  improving an MCP server in TypeScript (MCP SDK) or Python (FastMCP) — tool
-  design, transports (stdio local / streamable HTTP remote), error shapes, and
-  evaluation. Grounds tool design in the official spec.
+description: Build, scaffold, and review MCP (Model Context Protocol) servers that give LLMs well-designed tools over an external API or service. Use when creating or improving an MCP server in TypeScript (MCP SDK) or Python (FastMCP) — tool design, transports (stdio local / streamable HTTP remote), error shapes, and evaluation. Grounds tool design in the official spec.
 allowed-tools: Read Write Edit Bash WebFetch
 ---
 

@@ -1,10 +1,6 @@
 ---
 name: incremental-implementation
-description: >-
-  Build in thin vertical slices — implement one piece, test it, prove it runs,
-  commit, then expand. Use for any change touching more than one file, when
-  you're about to write a lot of code at once, or when a task feels too big for
-  one step. Each increment leaves the system working and committed.
+description: Build in thin vertical slices — implement one piece, test it, prove it runs, commit, then expand. Use for any change touching more than one file, when you're about to write a lot of code at once, or when a task feels too big for one step. Each increment leaves the system working and committed.
 allowed-tools: Read Write Edit Bash
 ---
 

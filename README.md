@@ -52,6 +52,8 @@ brainstorm → plan → isolate → execute (incrementally) → review → ship 
 | [subagent-driven-development](./skills/subagent-driven-development) | Runs a plan with a fresh subagent per task and a two-stage review (spec, then quality) |
 | [incremental-implementation](./skills/incremental-implementation) | Builds in thin vertical slices so the system stays working between increments |
 | [dispatching-parallel-agents](./skills/dispatching-parallel-agents) | One focused agent per independent problem, run concurrently |
+| [spec-to-issues](./skills/spec-to-issues) | Breaks a spec/PRD into independent tracer-bullet slices and publishes them as an epic + linked GitHub issues (adapter-shaped for other trackers) |
+| [issue-to-pr](./skills/issue-to-pr) | Picks one independent GitHub issue, then composes the isolation/implementation/review skills to drive it to an open PR — stops before merge |
 
 ## Engineering & research
 

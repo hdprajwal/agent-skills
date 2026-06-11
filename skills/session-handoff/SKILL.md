@@ -1,11 +1,6 @@
 ---
 name: session-handoff
-description: >-
-  Write or restore a handoff note when pausing or switching between projects, so
-  the next session (you, another agent, or the user) resumes without re-deriving
-  context. Use when wrapping up for now, context is getting long, switching to
-  another repo, or starting back up on a project left mid-task. Captures state +
-  next step, not a transcript.
+description: Write or restore a handoff note when pausing or switching between projects, so the next session (you, another agent, or the user) resumes without re-deriving context. Use when wrapping up for now, context is getting long, switching to another repo, or starting back up on a project left mid-task. Captures state + next step, not a transcript.
 allowed-tools: Read Write Edit Bash
 ---
 

@@ -1,11 +1,6 @@
 ---
 name: dispatching-parallel-agents
-description: >-
-  Dispatch one focused agent per independent problem and run them concurrently.
-  Use when facing 2+ tasks with no shared state and no sequential dependency —
-  several unrelated test failures, multiple broken subsystems, a batch of
-  independent issues. Each agent gets a self-contained brief and returns a
-  summary; you review for conflicts and integrate.
+description: Dispatch one focused agent per independent problem and run them concurrently. Use when facing 2+ tasks with no shared state and no sequential dependency — several unrelated test failures, multiple broken subsystems, a batch of independent issues. Each agent gets a self-contained brief and returns a summary; you review for conflicts and integrate.
 allowed-tools: Read Bash Agent Task
 ---
 
