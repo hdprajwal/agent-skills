@@ -2,9 +2,9 @@
 
 Modular instruction sets that extend what AI coding agents can do — each one teaches the agent *when* to act and *how* to do a specific task the same way, every time. Installable via [skills.sh](https://skills.sh), works in any agent that supports it.
 
-**20 skills** across four areas: a build-with-an-agent workflow, engineering & research tools, Linux desktop control, and writing.
+**24 skills** across five areas: a build-with-an-agent workflow, engineering & research tools, reasoning & learning, Linux desktop control, and writing.
 
-Jump to: [Development workflow](#development-workflow) · [Engineering & research](#engineering--research) · [Linux desktop](#linux-desktop-hyprland--wayland) · [Writing & content](#writing--content)
+Jump to: [Development workflow](#development-workflow) · [Engineering & research](#engineering--research) · [Reasoning & learning](#reasoning--learning) · [Linux desktop](#linux-desktop-hyprland--wayland) · [Writing & content](#writing--content)
 
 ## Quick start
 
@@ -68,6 +68,15 @@ Tools that fill gaps in the dev/research toolkit, tuned to a Rust + Next/TS + Py
 | [litreview](./skills/litreview) | Reproducible academic literature review — search log, screening, extraction matrix, synthesis, BibTeX |
 | [session-handoff](./skills/session-handoff) | Write/restore a `docs/HANDOFF.md` snapshot when pausing or switching projects |
 
+## Reasoning & learning
+
+Skills for thinking a hard call all the way through, and for learning something deeply rather than skimming it.
+
+| Skill | What it does |
+|-------|--------------|
+| [council](./skills/council) | Convenes a decision chamber for high-stakes, ambiguous calls — five blind advisors, a blind teardown round, and a fresh chairman that returns a verdict, not a menu |
+| [teach](./skills/teach) | Teaches a topic from first principles over multiple sessions in a per-topic workspace — strip to bedrock, rebuild, and make you derive it yourself |
+
 ## Linux desktop (Hyprland / Wayland)
 
 Computer-use skills for driving a Wayland desktop, built and verified on CachyOS + Hyprland. Together they form an observe → act loop:
@@ -90,7 +99,7 @@ see the screen → control windows → click & type → verify
 | Skill | What it does |
 |-------|--------------|
 | [writing-flow](./skills/writing-flow) | 3-step writing flow (`/fragments`, `/walk`, `/polish`) — grills you three ways with a context clear between each |
-| [humanize](./skills/humanize) | Strips signs of AI-generated writing so text reads naturally |
+| [unslop](./skills/unslop) | Strips AI tells and rewrites text in a plain, spoken voice — short sentences, honest claims, no swagger (merges the old `humanize` catalog with a plain-voice target) |
 | [shadcn-audit](./skills/shadcn-audit) | Audits shadcn components from third-party registries for malicious code before install |
 
 ## How skills work
@@ -136,6 +145,11 @@ Several skills are adapted — re-voiced and trimmed, not copied verbatim — fr
 
 - [anthropics/skills](https://github.com/anthropics/skills) — `mcp-builder` and `document-toolkit` (the official `pdf`/`docx`/`xlsx` skills).
 - [Jeffallan/claude-skills](https://github.com/Jeffallan/claude-skills) and [alirezarezvani/claude-skills](https://github.com/alirezarezvani/claude-skills) — surveyed for `rust-review`, `api-design`, `litreview`, `session-handoff`.
+
+**Reasoning & learning:**
+
+- [mattpocock/skills](https://github.com/mattpocock/skills) by Matt Pocock — `teach`, extended with a first-principles spine and per-topic workspaces.
+- [affaan-m/ECC](https://github.com/affaan-m/ECC) — seeded `council`, since rebuilt into a five-advisor → blind-review → chairman pipeline.
 
 All are worth reading in full. Thanks to their authors for sharing them openly.
 

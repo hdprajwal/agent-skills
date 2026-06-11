@@ -1,0 +1,11 @@
+{
+  "version": "1.0.0",
+  "author": "hdprajwal",
+  "date": "June 2026",
+  "abstract": "A decision chamber for high-stakes, ambiguous calls. Five specialist advisors (contrarian, first-principles, expansionist, outsider, executor) attack the framed question independently and blind to the conversation; the five proposals are anonymized and shuffled into a blind teardown round where one reviewer tries to destroy each without knowing who wrote it; a fresh, conversation-blind chairman then weighs what survived attack and returns a verdict, not a menu. Eleven subagents in total, with a reduced-chamber mode for lighter calls. Seeded by affaan-m/ECC's council skill, rebuilt into a three-stage advisor → blind-review → chairman pipeline.",
+  "references": [
+    "https://github.com/affaan-m/ECC",
+    "https://github.com/hdprajwal/agent-skills",
+    "https://skills.sh"
+  ]
+}

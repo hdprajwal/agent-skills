@@ -1,0 +1,12 @@
+{
+  "version": "1.0.0",
+  "author": "hdprajwal",
+  "date": "June 2026",
+  "abstract": "An AI agent skill that makes any writing sound plain, human, and simple. Merges three earlier skills: a plain-voice writing target (plain spoken English, no clever phrasing, no swagger, no inflated claims), a 38-pattern de-AI detection catalog (based on Wikipedia's 'Signs of AI writing'), and a one-pass quality-gate process (intake, single scan, clean-exit decision, prioritized rewrite, anti-AI audit). The plain voice is the north star; the catalog and process serve it.",
+  "references": [
+    "https://en.wikipedia.org/wiki/Wikipedia:Signs_of_AI_writing",
+    "https://en.wikipedia.org/wiki/Wikipedia:WikiProject_AI_Cleanup",
+    "https://skills.sh",
+    "https://github.com/hdprajwal/agent-skills"
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "version": "1.0.0",
+  "author": "hdprajwal",
+  "date": "June 2026",
+  "abstract": "Teaches a topic from first principles over multiple sessions using a stateful, per-topic teaching workspace. Each concept is stripped to bedrock, its assumptions interrogated (necessary vs convention), rebuilt from the primitives by the learner rather than handed over, then reconstructed and tested against an edge case. State lives on disk per topic (MISSION, PRINCIPLES, GLOSSARY, RESOURCES, learning-records, beautiful HTML lessons) so a single repo can host several topic-workspaces side by side and lessons can be grounded in the surrounding codebase. Difficulty is applied asymmetrically — clean easy primitives, effortful reasoning — to build storage strength over fluency. Adapted from Matt Pocock's teach skill, extended with a first-principles spine and per-topic workspace resolution.",
+  "references": [
+    "https://github.com/mattpocock/skills",
+    "https://github.com/hdprajwal/agent-skills",
+    "https://skills.sh"
+  ]
+}
