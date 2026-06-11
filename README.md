@@ -67,6 +67,7 @@ Tools that fill gaps in the dev/research toolkit, tuned to a Rust + Next/TS + Py
 | [api-design](./skills/api-design) | Contract-first design for HTTP endpoints, MCP tools, and library APIs |
 | [litreview](./skills/litreview) | Reproducible academic literature review — search log, screening, extraction matrix, synthesis, BibTeX |
 | [session-handoff](./skills/session-handoff) | Write/restore a `docs/HANDOFF.md` snapshot when pausing or switching projects |
+| [shadcn-audit](./skills/shadcn-audit) | Security-audits shadcn components from third-party registries — static + semantic analysis, SAFE/WARNING/BLOCK verdict before anything installs |
 
 ## Reasoning & learning
 
@@ -100,7 +101,6 @@ see the screen → control windows → click & type → verify
 |-------|--------------|
 | [writing-flow](./skills/writing-flow) | 3-step writing flow (`/fragments`, `/walk`, `/polish`) — grills you three ways with a context clear between each |
 | [unslop](./skills/unslop) | Strips AI tells and rewrites text in a plain, spoken voice — short sentences, honest claims, no swagger (merges the old `humanize` catalog with a plain-voice target) |
-| [shadcn-audit](./skills/shadcn-audit) | Audits shadcn components from third-party registries for malicious code before install |
 
 ## How skills work
 
